@@ -28,7 +28,7 @@ class DocumentMetaAdder:
     @component.output_types(documents=List[Document])
     def run(self, documents: List[Document]):
         """
-        It is recommended, to add the component between the FileTypeRouter and the DocumentSplitter.
+        It is recommended, to insert this component between the FileTypeRouter and the DocumentSplitter.
         """
 
         for doc in documents:
